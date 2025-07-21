@@ -1,0 +1,38 @@
+# ✅ .gitignore for a Next.js (App Router or Pages Router) project
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build outputs
+/.next
+/out
+
+# testing
+/coverage
+
+# production
+/build
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# editor folders
+.vscode/
+.idea/
+
+# optional: system files
+*.swp
+*.swo
+*.swn
