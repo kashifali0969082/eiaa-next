@@ -128,6 +128,8 @@ export const FileUpload: React.FC<FileUploadProps> = ({
         document.body.appendChild(link);
         link.click();
         link.remove();
+        // console.log("link is ",link);
+        
         URL.revokeObjectURL(urlObject);
       } else {
         const contentType = response.headers["content-type"];
